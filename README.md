@@ -1,42 +1,58 @@
 ﻿# CPP_02
 
-C++ Module 02 from 42: fixed-point arithmetic and operator overloading.
+Modulo C++ 02 de 42: sobrecarga de operadores y aritmetica de punto fijo.
 
 ## Stack
 
 - School: 42
-- Primary language: C/C++
-- Scope: single repository per project
+- Lenguaje principal: C++98
+- Alcance: un repositorio por proyecto
 
-## Project Layout
+## Estructura
 
-| Exercise | Path |
-|---|---|
-| ex00 | ./ex00 |
-| ex01 | ./ex01 |
-| ex02 | ./ex02 |
+| Ejercicio | Ruta | Binario |
+|---|---|---|
+| ex00 | ./ex00 | Fixed |
+| ex01 | ./ex01 | Fixed |
+| ex02 | ./ex02 | Fixed |
 
-## How To Run
+## Como Ejecutarlo
 
-Build one exercise at a time:
+Compila y ejecuta cada ejercicio por separado:
+
+### ex00
 
 ~~~bash
 cd ex00
 make
-./<binary_name>
+./Fixed
 ~~~
 
-Repeat the same flow for: ex00, ex01, ex02
+### ex01
 
-## Testing
+~~~bash
+cd ex01
+make
+./Fixed
+~~~
 
-No dedicated test script detected in the repository root.
+### ex02
 
-## Notes
+~~~bash
+cd ex02
+make
+./Fixed
+~~~
 
-- This repository is maintained as part of a 42 portfolio.
-- Build commands are intentionally simple to keep evaluation reproducible.
+## Pruebas
 
-## Author
+No se detectaron scripts de testing dedicados en la raiz.
+
+## Notas
+
+- Este repositorio forma parte del portfolio de 42.
+- Los comandos estan orientados a ejecucion local para revision y evaluacion.
+
+## Autora
 
 anapaulapgavilan
