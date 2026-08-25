@@ -4,6 +4,21 @@
 
 42 School C++ module 02: operator overloading and fixed-point arithmetic.
 
+## About This Project
+
+### What It Does
+
+This module implements a fixed-point number class ("Fixed") from scratch, backed by a plain int that stores a fractional value using a configurable number of bits.
+
+Exercises in this module:
+- ex00: the base "Fixed" class with constructors, a copy assignment operator, and conversions to/from int/loat.
+- ex01: adds constructors from int/loat and rounding-aware 	oInt/	oFloat conversions, plus a small test program.
+- ex02: overloads the full set of comparison, arithmetic, increment/decrement, and stream-insertion operators so Fixed behaves like a native numeric type.
+
+### Purpose
+
+It evaluates operator overloading and the "orthodox canonical form" (constructor, copy constructor, copy assignment, destructor) by forcing the student to reimplement arithmetic semantics that C++ gives built-in types for free.
+
 ## Stack
 
 - School: 42
@@ -19,6 +34,8 @@
 | ex02 | ./ex02 | Fixed |
 
 ## How to Run
+
+Prerequisites: `make` and a C++98-capable compiler (`g++` or `clang++`).
 
 Compile and run each exercise separately:
 
