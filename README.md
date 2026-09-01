@@ -25,6 +25,16 @@ It evaluates operator overloading and the "orthodox canonical form" (constructor
 - Primary language: C++98
 - Scope: one repository per project
 
+## Skills Demonstrated
+
+`Operator overloading` | `Fixed-point arithmetic` | `Orthodox canonical form`
+
+## Features
+
+- Fixed-point number type backed by a single int with configurable fractional bits
+- Full operator overloading: arithmetic, comparison, increment/decrement, and stream insertion
+- Orthodox canonical form (constructor, copy, assignment, destructor)
+
 ## Structure
 
 | Exercise | Path | Binary |
