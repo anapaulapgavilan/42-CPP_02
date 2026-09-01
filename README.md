@@ -35,6 +35,12 @@ It evaluates operator overloading and the "orthodox canonical form" (constructor
 - Full operator overloading: arithmetic, comparison, increment/decrement, and stream insertion
 - Orthodox canonical form (constructor, copy, assignment, destructor)
 
+## Review Focus
+
+- Look for canonical-form correctness: copy construction, assignment, and destruction should behave predictably.
+- Review whether overloaded operators make Fixed feel natural without hiding precision constraints.
+- Notice the care needed to model numeric behavior instead of relying on built-in primitive types.
+
 ## Structure
 
 | Exercise | Path | Binary |
