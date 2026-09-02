@@ -41,6 +41,18 @@ It evaluates operator overloading and the "orthodox canonical form" (constructor
 - Review whether overloaded operators make Fixed feel natural without hiding precision constraints.
 - Notice the care needed to model numeric behavior instead of relying on built-in primitive types.
 
+## Project Deep Dive
+
+CPP_02 builds a numeric type from scratch. Instead of treating arithmetic as something the language simply provides, the module exposes how values can be represented internally and how operators define the public behavior of a class.
+
+The fixed-point implementation is useful because it forces precision tradeoffs to be explicit. A reviewer can inspect whether comparisons, arithmetic, increments, and conversions behave consistently even though the underlying storage is just an integer.
+
+## Implementation Notes
+
+- Stores fixed-point values as scaled integers with a constant fractional-bit count.
+- Implements the orthodox canonical form so copying and assignment behave predictably.
+- Overloads operators to make the custom type usable without hiding conversion and rounding concerns.
+
 ## Structure
 
 | Exercise | Path | Binary |
